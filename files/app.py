@@ -166,7 +166,7 @@ def get_result_card(avg_theta, avg_eci):
 
 # --- SIDEBAR CONFIG ---
 with st.sidebar:
-    st.header("⚙️ Config")
+    st.header("Configurations")
     T = st.slider("Cycles", 50, 200, 100)
     
     # EXPLANATION STRINGS
@@ -195,7 +195,7 @@ with st.sidebar:
 
 
 # --- MAIN APP LOGIC ---
-st.title("🏛️ Oligarchy Simulator")
+st.title("Oligarchy Simulator")
 
 # SINGLE CONTAINER FOR PAGE CONTENT
 main_display = st.empty()
@@ -237,7 +237,7 @@ if st.session_state['sim_state'] == 'SETUP':
                         st.rerun()
 
             st.markdown("---")
-            if st.button("▶️ START SIMULATION", type="primary", use_container_width=True):
+            if st.button("START SIMULATION", type="primary", use_container_width=True):
                 M_0 = np.array([m0_x, m0_y])
                 results = run_simulation(
                     T, M_0, theta_0, st.session_state['elite_list'], 
