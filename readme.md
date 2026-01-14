@@ -1,4 +1,4 @@
-# Dynamics of Oligarchy Simulator
+# Oligarchy Simulator
 
 ### [**Launch Live Simulation**](https://jerryluo457-oligarchysim-filesapp-spzxtc.streamlit.app/)
 
