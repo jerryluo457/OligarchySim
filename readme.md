@@ -17,9 +17,9 @@ Before the simulation begins, you configure the initial state of the world:
 ### 2. Simulation Phase
 Once started, the simulation runs for $T$ cycles. You can watch the dynamics unfold in real-time:
 * **The Chart:**
-    * 🔵 **Public ($M$):** Moves slowly, adapting to policy outcomes (or propaganda).
-    * ✖️ **Policy ($O$):** The actual law of the land. Its position is a weighted tug-of-war between the Public and the Elites.
-    * 🟣 **Elite Consensus ($E$):** The weighted average position of all elite actors.
+    * **Public ($M$):** Moves slowly, adapting to policy outcomes (or propaganda).
+    * **Policy ($O$):** The actual law of the land. Its position is a weighted tug-of-war between the Public and the Elites.
+    * **Elite Consensus ($E$):** The weighted average position of all elite actors.
 * **The Gauges:**
     * **Democracy Score ($\theta$):** How much the government cares about the public. (1.0 = Pure Democracy, 0.0 = Total Oligarchy).
     * **Elite Capture ($ECI$):** A measure of how far policy has drifted from the public relative to the elites.
